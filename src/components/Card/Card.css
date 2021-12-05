@@ -1,0 +1,12 @@
+.card {
+    width: 282px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.card__photo {
+    width: 282px;
+    height: 282px;
+    border-radius: 10px;
+    object-fit: cover;
+}
