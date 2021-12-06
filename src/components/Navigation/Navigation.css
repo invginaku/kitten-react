@@ -1,0 +1,40 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navigation__links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation__list-item {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin-right: 16px;
+}
+
+.navigation__list-item:last-of-type {
+    margin-right: 0;
+}
+
+.navigation__page-link {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation__page-link:hover {
+    text-decoration: underline;
+}
+
+.navigation__page-link_active {
+    font-weight: 500;
+}
+
+
+

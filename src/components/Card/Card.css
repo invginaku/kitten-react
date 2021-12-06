@@ -2,6 +2,7 @@
     width: 282px;
     margin: 10px auto;
     display: flex;
+    position: relative;
 }
 
 .card__photo {

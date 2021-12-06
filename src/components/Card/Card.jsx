@@ -3,6 +3,7 @@ import React from 'react';
 import './Card.css';
 
 const Card = ({file}) => {
+
     if (file.data.preview) {
         if( file.data.preview.enabled) {
             console.log(file.data);
