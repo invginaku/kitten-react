@@ -2,7 +2,13 @@ import React from 'react';
 
 import './Card.css';
 
-const Card = ({file}) => {
+import Like from '../Like/Like'
+
+const Card = ({
+                  file
+              }) => {
+
+    const description = file.data.title;
 
     if (file.data.preview) {
         if( file.data.preview.enabled) {
@@ -11,7 +17,8 @@ const Card = ({file}) => {
             previewImage = previewImage.replace(/&amp;/g,"&");
             return (
                 <div className="card">
-                        <img src={previewImage} className="card__photo" alt={file.data.title}/>
+                    <img src={previewImage} className="card__photo" alt={description}/>
+                    <Like />
                 </div>
             );
         }
