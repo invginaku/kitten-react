@@ -23,6 +23,19 @@ class Main extends React.Component {
         this.mainPage(this.state.mainSubreddit);
     }
 
+    mainPage(sub) {
+        fetch(this.url + sub  + '.json')
+            .then(res => res.json())
+            .then((data) => {
+                this.setState({
+                    files: data.data.children,
+                    after: data.data.after,
+                    before: data.data.before
+                });
+            })
+            .catch(console.log)
+    }
+
     nextPage = () => {
         fetch(this.url + this.state.mainSubreddit + ".json?count=" + (this.state.page * 25) + "&after=" + this.state.after)
             .then(res => res.json())
@@ -56,18 +69,6 @@ class Main extends React.Component {
             .catch(console.log)
     }
 
-    mainPage(sub) {
-        fetch(this.url + sub  + '.json')
-            .then(res => res.json())
-            .then((data) => {
-                this.setState({
-                    files: data.data.children,
-                    after: data.data.after,
-                    before: data.data.before
-                });
-            })
-            .catch(console.log)
-    }
 
     render () {
         let contentJSX;
