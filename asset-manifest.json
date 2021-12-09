@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kitten-react/static/css/main.15c423a8.chunk.css",
+    "main.js": "/kitten-react/static/js/main.d3f5c039.chunk.js",
+    "main.js.map": "/kitten-react/static/js/main.d3f5c039.chunk.js.map",
+    "runtime-main.js": "/kitten-react/static/js/runtime-main.ec416f44.js",
+    "runtime-main.js.map": "/kitten-react/static/js/runtime-main.ec416f44.js.map",
+    "static/js/2.d1de4aba.chunk.js": "/kitten-react/static/js/2.d1de4aba.chunk.js",
+    "static/js/2.d1de4aba.chunk.js.map": "/kitten-react/static/js/2.d1de4aba.chunk.js.map",
+    "index.html": "/kitten-react/index.html",
+    "static/css/main.15c423a8.chunk.css.map": "/kitten-react/static/css/main.15c423a8.chunk.css.map",
+    "static/js/2.d1de4aba.chunk.js.LICENSE.txt": "/kitten-react/static/js/2.d1de4aba.chunk.js.LICENSE.txt",
+    "static/media/Cards.css": "/kitten-react/static/media/like-invisible.2532ba14.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec416f44.js",
+    "static/js/2.d1de4aba.chunk.js",
+    "static/css/main.15c423a8.chunk.css",
+    "static/js/main.d3f5c039.chunk.js"
+  ]
+}
