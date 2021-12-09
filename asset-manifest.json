@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kitten-react/static/css/main.15c423a8.chunk.css",
-    "main.js": "/kitten-react/static/js/main.632495d8.chunk.js",
-    "main.js.map": "/kitten-react/static/js/main.632495d8.chunk.js.map",
+    "main.js": "/kitten-react/static/js/main.4afdf39c.chunk.js",
+    "main.js.map": "/kitten-react/static/js/main.4afdf39c.chunk.js.map",
     "runtime-main.js": "/kitten-react/static/js/runtime-main.ec416f44.js",
     "runtime-main.js.map": "/kitten-react/static/js/runtime-main.ec416f44.js.map",
     "static/js/2.d1de4aba.chunk.js": "/kitten-react/static/js/2.d1de4aba.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ec416f44.js",
     "static/js/2.d1de4aba.chunk.js",
     "static/css/main.15c423a8.chunk.css",
-    "static/js/main.632495d8.chunk.js"
+    "static/js/main.4afdf39c.chunk.js"
   ]
 }
