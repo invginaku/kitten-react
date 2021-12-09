@@ -4,7 +4,7 @@ import './Cards.css'
 
 import Card from '../Card/Card.jsx';
 
-const Cards = ({files}) => {
+function Cards ({files}) {
     return (
         <div className="cards">
             {files.map((file) => (
